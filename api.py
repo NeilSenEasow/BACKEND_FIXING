@@ -225,7 +225,7 @@ def login_donor(email):
 @app.route('/volunteer')
 def volunteer_index():
     # Go to volunteer page
-    return app.send_static_file('volunteer.html')
+    return app.send_static_file('optionpg.html')  # TODO: Set page!
 
 
 @app.route('/donor')
